@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Alow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "resource": "arn:aws:s3:::portfolioforabd/*"
+
+        }
+
+    ]
+}
